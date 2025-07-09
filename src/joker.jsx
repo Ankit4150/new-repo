@@ -14,7 +14,7 @@ import { useState } from "react"
             <h2>joker !</h2>
             <h2>{joke.setup}</h2>
             <h2>{joke.punchline}</h2>
-            <button onClick={getjoke}>Get jokes</button>
+            <button  styel={{backgroundColor:"pink"}}onClick={getjoke}>Get jokes</button>
         </div>
     )
  }
